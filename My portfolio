@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: white;
+        
+        }
+        header {
+            background-color: blue;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 40px 20px;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: black;
+            text-align: center;
+        }
+        .projects img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .contact p {
+            text-align: center;
+            font-size: 18px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        #about{
+            background-color: darkcyan;
+            
+        }
+        #skills{
+            background-color: darkgray;
+        }
+        #contact{
+            background-color: gold;
+        }
+        #footer{
+            background-color: darksalmon;
+        }
+        /* Phones: screens 480px wide or smaller */
+@media (max-width: 480px) {
+    header {
+        padding: 30px 10px;
+    }
+
+    header h1 {
+        font-size: 28px; /* smaller title */
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 20px 10px;
+        margin: 15px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    .projects img {
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 15px;
+    }
+}
+
+/* Tablets: screens 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        padding: 40px 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 15px;
+        margin: 20px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 18px;
+    }
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KRAANG</h1>
+    <p>I build websites and solve real problems for businesses in Uganda.</p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a new <b>Basic</b>  Web Designer from Uganda. I create <b>Simple</b> websites that help local businesses go online and reach more customers. I focus on simplicity, performance, and usability.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <p>HTML | CSS | Introductory JavaScript | Web Design | Responsive Design</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+   <p>Email: <a href="mailto:krangdroidy@gmail.com">Email Kraang</a></p>
+    <p>Phone:<a href="tel:+256754125497">0754125497</a> </p>
+    <p>WhatsApp: <a href="https://wa.me/256754125497" target="_blank">0754125497</a></p>
+</section>
+
+<footer id="footer">
+    <p>© 2026 Kraang | Built with HTML, CSS & JavaScript personally</p>
+</footer>
+
+</body>
+</html>
