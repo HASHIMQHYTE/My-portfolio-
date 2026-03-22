@@ -1,0 +1,93 @@
+        html body {
+            
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: blue;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 40px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px black;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        #about {
+            background-color: darkcyan;
+            color: black;
+        }
+
+        #skills {
+            background-color: darkgray;
+            color: black;
+        }
+
+        #contact {
+            background-color: gold;
+            color: black;
+        }
+
+        footer {
+            box-shadow: 0 4px 10px black;
+            border-radius:10px;
+            background-color: darksalmon;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+        
+        a:hover {
+            text-decoration: underline;
+        }
+
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+            section {
+                padding: 40px 15px;
+            }
+        }
